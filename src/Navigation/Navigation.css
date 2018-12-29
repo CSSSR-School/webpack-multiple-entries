@@ -1,0 +1,26 @@
+.Navigation {
+  width: 100%;
+  margin-bottom: 32px;
+  padding: 32px;
+  background: rgb(56, 224, 236);
+}
+
+.Navigation__links {
+  display: flex;
+}
+
+.Navigation__link {
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+}
+
+.Navigation__link:hover {
+  color: rgb(226, 87, 87);
+}
+
+.Navigation__link + .Navigation__link {
+  margin-left: 24px;
+}
